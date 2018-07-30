@@ -67,3 +67,14 @@ class MyPythonPlayGround:
     b = 2
     print("bigger" if a > b else "smaller")
     print("smaller" if a or b else "There is nothing")
+
+    # Lists
+    # student_names = []
+    student_names = ["Artemas", "John", "James"]
+    print(student_names[0] == "Artemas")
+    print(student_names[2] == "Artemas")
+    print(student_names[2] == "James")
+
+    # Negatives in Lists
+    print(student_names[-1] == "James")
+    print(student_names[-2] == "John")
