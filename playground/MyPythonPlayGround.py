@@ -76,5 +76,33 @@ class MyPythonPlayGround:
     print(student_names[2] == "James")
 
     # Negatives in Lists
+    #                       -3      -2       -1
+    # student_names = ["Artemas", "John", "James"]
     print(student_names[-1] == "James")
     print(student_names[-2] == "John")
+
+    # Assigning values in lists
+    print(student_names)
+    student_names[0] = "Timothy"
+    print(student_names)
+
+    # Appending in Lists
+    student_names.append("Artemas")
+    print(student_names)
+
+    # Checking if value exists in List
+    print("Artemas" in student_names)
+    print("Tracey" in student_names)
+
+    # Get the length of the list
+    print(len(student_names))
+    print(len(student_names) == 4)
+
+    # Deletion of element in list
+    del student_names[0]
+    print(student_names)
+
+    # List slicing
+    print(student_names)
+    print(student_names[1:])
+    print(student_names[1:-1])
